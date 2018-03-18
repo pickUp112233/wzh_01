@@ -5,6 +5,7 @@ public class Person {
 	private Integer id;
 	private String name;
 	private String gender;
+	private String address;
 
 	public Integer getId() {
 		return id;
@@ -28,6 +29,14 @@ public class Person {
 
 	public void setGender(String gender) {
 		this.gender = gender;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
 	public static void main(String[] args) {
